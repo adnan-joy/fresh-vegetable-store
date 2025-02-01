@@ -1,0 +1,41 @@
+@keyframes ban-anime {
+    0%
+    {
+        filter: grayscale(0%) blur(0px);
+    }
+    12%
+    {
+        filter: grayscale(15%);
+    }
+    25%
+    {
+        filter: grayscale(30%);
+    }
+    37%
+    {
+        filter: grayscale(50%);
+    }
+    50%
+    {
+        filter: grayscale(75%);
+    }
+    62%
+    {
+        filter: grayscale(100%);
+    }
+    75%
+    {
+        filter: blur(1px);
+    }
+    87%
+    {
+        filter: blur(2px);
+    }
+    100%
+    {
+        filter: blur(3px);
+    }
+}
+.banner img {
+    animation: ban-anime 3s linear 0s infinite alternate;
+}
